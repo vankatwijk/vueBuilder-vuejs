@@ -9,7 +9,7 @@
 //https://harin76.medium.com/generate-vue-js-components-from-a-json-javascript-dom-structure-a76534478d15
 //http://jsbin.com/teqoxi/edit?html,js,output
 
-import HelloWorld from './components/PageComponent.vue'
+import PageComponent from './components/PageComponent.vue'
 
 export default {
   name: 'App',

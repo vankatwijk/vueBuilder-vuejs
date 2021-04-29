@@ -40,16 +40,43 @@ export default {
       },{
         tagName: 'div',
         properties: {
-          attrs: {href: '#',style:'background-color:grey'}
+          attrs: {class:'card',style:'width: 18rem;'}
         },
         children: [
           {
-            tagName: 'h1',
-            textNode: 'Text section'
+            tagName: 'img',
+            properties: {
+              attrs: {src:'....',class:'card-img-top',alt:'...'}
+            }
           },
           {
-            tagName: 'h3',
-            textNode: 'Text Section'
+            tagName: 'div',
+            properties: {
+              attrs: {class:'card-body'}
+            },
+            children: [
+              {
+                tagName: 'h5',
+                textNode: 'Card title',
+                properties: {
+                  attrs: {class:'card-title'}
+                }
+              },
+              {
+                tagName: 'p',
+                textNode: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
+                properties: {
+                  attrs: {class:'card-text'}
+                }
+              },
+              {
+                tagName: 'a',
+                textNode: 'Go somewhere',
+                properties: {
+                  attrs: {href: '#',class:'btn btn-primary'}
+                }
+              }
+            ]
           }
         ]
       }]
