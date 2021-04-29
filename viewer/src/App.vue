@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <PageComponent />
   </div>
 </template>
 
@@ -9,12 +9,12 @@
 //https://harin76.medium.com/generate-vue-js-components-from-a-json-javascript-dom-structure-a76534478d15
 //http://jsbin.com/teqoxi/edit?html,js,output
 
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/PageComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PageComponent
   }
 }
 </script>
